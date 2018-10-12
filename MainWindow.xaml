@@ -1,0 +1,17 @@
+﻿<syncfusion:ChromelessWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DocumentTabGroup"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf" x:Class="DocumentTabGroup.MainWindow"
+        mc:Ignorable="d" Icon="sfgrid.ico" WindowStartupLocation="CenterScreen"
+        Title="DocumentContainer"  Height="350" Width="525">
+	<Grid>
+		<syncfusion:DocumentContainer  x:Name="document" Mode="TDI" >
+			<Grid x:Name="item1" syncfusion:DockingManager.Header="item1" />
+			<Grid x:Name="item2" syncfusion:DockingManager.Header="item2"/>
+			<Grid x:Name="item3" syncfusion:DockingManager.Header="item3"/>
+		</syncfusion:DocumentContainer>
+	</Grid>
+</syncfusion:ChromelessWindow>
