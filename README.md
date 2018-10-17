@@ -4,8 +4,8 @@ You can create tab groups when DocumentContainer.Mode is TDI where the tabs will
 
 ##Create Vertical Tab Group
 
-If you need to create the vertical tab group, then select “New Vertical Tab Group” context menu item.
+If create a vertical tab group, select “New Vertical Tab Group” context menu item.
 
 ##Create Horizontal Tab Group
 
-If you need to create the horizontal tab group, then select “New Horizontal Tab Group” context menu item.
+If create the horizontal tab group, select “New Horizontal Tab Group” context menu item.
